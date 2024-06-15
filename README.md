@@ -30,7 +30,6 @@ func main() {
 	conf.UnifiedTradeNative(body)
 }
 ```
-https://up.95516.com/open/openapi/doc?index_1=1&index_2=1&chapter_1=235&chapter_2=259
 ## 使用方法
 ```shell
 go get -u github.com/yuzhilue/unionpay
@@ -39,10 +38,10 @@ go get -u github.com/yuzhilue/unionpay
 ## 功能
 **扫码支付**
  - [x]  统一下单(unified.trade.native)
- - [x]  查询订单(unified.trade.query)
- - [x]  关闭订单(unified.trade.close)
- - [x]  申请退款(unified.trade.refund)
- - [x]  查询退款(unified.trade.refundquery)
+ - [ ]  查询订单(unified.trade.query)
+ - [ ]  关闭订单(unified.trade.close)
+ - [ ]  申请退款(unified.trade.refund)
+ - [ ]  查询退款(unified.trade.refundquery)
 **被扫支付**
 **微信APP支付**
 **微信公众号&小程序支付**
