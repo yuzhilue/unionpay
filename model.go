@@ -1,7 +1,8 @@
 package unionpay
 
 const (
-	QrAPI                   = "https://qra.95516.com/pay/gateway" // api
+	QrAPI                   = "https://qra.95516.com/pay/gateway" // 二维码api
+	PAYAPI                  = "https://qra.95516.com/pay/gateway" // 支付api
 	UNIFIEDTRADENATIVE      = "unified.trade.native"              // 扫码支付-提交订单
 	UNIFIEDTRADEQUERY       = "unified.trade.query"               // 扫码支付-查询订单
 	UNIFIEDTRADECLOSE       = "unified.trade.close"               // 扫码支付-关闭订单

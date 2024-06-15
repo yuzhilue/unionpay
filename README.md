@@ -1,5 +1,5 @@
 # Unionpay
-Go unionpay SDK 非官方
+Go unionpay(银联支付) SDK 非官方
 
 ## 示例
 
@@ -42,8 +42,18 @@ go get -u github.com/yuzhilue/unionpay
  - [ ]  关闭订单(unified.trade.close)
  - [ ]  申请退款(unified.trade.refund)
  - [ ]  查询退款(unified.trade.refundquery)
+
 **被扫支付**
+ - [ ]  提交被扫支付(unified.trade.micropay)
+
 **微信APP支付**
+ - [ ]  统一下单(pay.weixin.raw.app)
+
 **微信公众号&小程序支付**
+ - [ ]  统一下单(unified.trade.native)
+
 **支付宝服务窗支付**
+ - [ ]  统一下单(unified.trade.native)
+
 **银联JS支付**
+ - [ ]  支付下单(pay.unionpay.jspay)
