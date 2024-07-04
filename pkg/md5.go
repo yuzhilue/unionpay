@@ -23,9 +23,8 @@ func CreateMd5(parameters map[string]string, key string) string {
 		}
 	}
 	signPars += "key=" + key
-	fmt.Println(signPars)
+	// fmt.Println(signPars)
 	hash := md5.Sum([]byte(signPars))
 	sign := strings.ToUpper(hex.EncodeToString(hash[:]))
-
 	return sign
 }
