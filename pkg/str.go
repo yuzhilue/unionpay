@@ -6,11 +6,8 @@ import (
 )
 
 // 生成字符串(32位）
-func generateRandomString() (string, error) {
+func GenerateRandomString() string {
 	bytes := make([]byte, 32/2)
-	_, err := rand.Read(bytes)
-	if err != nil {
-		return "", err
-	}
-	return hex.EncodeToString(bytes), nil
+	_, _ = rand.Read(bytes)
+	return hex.EncodeToString(bytes)
 }
